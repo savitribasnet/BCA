@@ -12,13 +12,18 @@
         android:theme="@style/Theme.BCA6sem"
         tools:targetApi="31">
         <activity
-            android:name=".DialogActivity"
+            android:name=".ListViewActivity"
             android:exported="true" >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+        </activity>
+        <activity
+            android:name=".DialogActivity"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".DisplayActivity"
@@ -34,9 +39,7 @@
             android:exported="true" />
         <activity
             android:name=".LoginUpActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".SignUpActivity"
             android:exported="true" />
