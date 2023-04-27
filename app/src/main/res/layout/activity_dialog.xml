@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".DialogActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/calculateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Sum"
+        android:layout_marginTop="46dp"
+        />
+    <com.google.android.material.button.MaterialButton
+    android:id="@+id/interestBtn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Simple Interest"
+
+    />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/triangleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triangle"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/circleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circle"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

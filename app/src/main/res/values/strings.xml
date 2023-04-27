@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BCA 6sem</string>
+    <string name="signin"><u>SignIn</u></string>
+    <string-array name="spinner_items">
+        <item>BCA</item>
+        <item>BE</item>
+        <item>BBA</item>
+        <item>BBS</item>
+        <item>BSW</item>
+    </string-array>
+    <string-array name="provience_items">
+        <item>Gandaki</item>
+        <item>Bagmati</item>
+        <item>Lumbini</item>
+
+    </string-array>
+</resources>
